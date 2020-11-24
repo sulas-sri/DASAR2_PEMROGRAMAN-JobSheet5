@@ -1,5 +1,5 @@
 # 1. MEMBUAT DICTIONARY
-foo = {1: "Belajar", 2: "Python, 3: "di Duniailkom"}
+foo = {1: "Belajar", 2: "Python", 3: "di Duniailkom"}
 bar = {"mengapa": "Belajar", "apa": "Python", "dimana": "di Duniailkom"}
 baz = {1: "Belajar", "apa": "Python", "dimana": "di Duniailkom"}
 
@@ -56,8 +56,8 @@ del foo["kegiatan"]
 print(foo)
 
 # 6. MEMBUAT DICTIONARY DENGAN CONSTRUKTUR DICT()
-foo = ("kegiatan": "Belajar Python",
-       "website": "Duniailkom",
-       "hasil": "Yakin bisa!")
+foo = dict (kegiatan = "Belajar Python",
+       website = "Duniailkom",
+       hasil = "Yakin bisa!")
        
-print(foo)       
+print(foo)      
