@@ -1,0 +1,29 @@
+# 1. MEMBUAT LIST
+foo = ["Belajar", "Python", "di", "Duniailkom"]
+bar = [100, 200, 300, 400]
+baz = ["Python", 200, 6.99, True]
+
+# 2. MENGAKSES LIST
+foo = ["Python", 200, 6.99, True, 'Duniailkom', 99j]
+
+print(foo[0])
+print(foo[1])
+print(foo[2])
+print(foo[3])
+print(foo[4])
+print(foo[5])
+
+# 3. MENGGANTI LIST
+foo = ["Python", 200, 6.99, True, 'Duniailkom', 99j]
+print(foo)
+
+foo[0] = 'Belajar'
+foo[3] = False
+print(foo)
+
+# 4. MENAMPILKAN SEBAGIAN LIST
+foo = ["Python", 200, 6.99, True, 'Duniailkom', 99j]
+print(foo[2:5])
+print(foo[:3])
+print(foo[3:])
+print(foo[:])
