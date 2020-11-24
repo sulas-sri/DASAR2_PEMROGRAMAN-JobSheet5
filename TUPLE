@@ -1,0 +1,20 @@
+# 1. MEMBUAT TUPLE
+foo = ["Belajar", "Python", "di", "Duniailkom"]
+print(type(foo))
+foo = ("Belajar", "Python", "di", "Duniailkom")
+print(type(foo))
+
+# 2. MENGAKSES TUPLE
+foo = ("Python", 200, 6.99, True, 'Duniailkom', 99j)
+
+print(foo[0])
+print(foo[1])
+print(foo[2:5])
+print(foo[:3])
+print(foo[3:])
+print(foo[:])
+
+# 3. MENGGANTI NILAI TUPLE
+foo = ("Python", 200, 6.99, True, 'Duniailkom', 99j)
+foo[0] = 'Belajar'
+print(foo)
