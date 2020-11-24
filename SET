@@ -1,0 +1,38 @@
+# 1. MEMBUAT SET
+foo = {"Belajar", "Python", "di", "Duniailkom"}
+bar = {100, 200, 300, 400}
+baz = {"Python", 200, 6.99, True}
+
+print(foo)
+print(bar)
+print(baz)
+
+print("\n")
+
+foo = ["Belajar", "Python", "di", "Duniailkom"]
+print(type(foo))
+
+foo = ("Belajar", "Python", "di", "Duniailkom")
+print(type(foo))
+
+foo = {"Belajar", "Python", "di", "Duniailkom"}
+print(type(foo))
+
+# 2. SIFAT TIPE DATA SET
+foo = {"Belajar", "Python", "di", "Duniailkom", "di"}
+bar = {100, 200, 300, 400, 200, 300}
+
+print(foo)
+print(bar)
+
+# 3. MENGAKSES ANGGOTA SET MENGGUNAKAN INDEX
+foo = {"Belajar", "Python", "di", "Duniailkom", "di"}
+
+print(foo[1])
+
+# 4. OPERASI HIMPUNAN TIPE DATA SET
+foo = {1, 2, 3, 4, 5}
+bar = {3, 4, 5, 6, 7}
+
+print (foo | bar) # union
+print (foo & bar) # intersection
